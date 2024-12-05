@@ -1,0 +1,4 @@
+Guest Checkout - 
+1. Product Add to Cart
+2. Move to Cart Page
+3. 

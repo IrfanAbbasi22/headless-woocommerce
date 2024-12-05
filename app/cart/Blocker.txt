@@ -1,0 +1,21 @@
+Blocker
+
+1. CartPage prices.
+2. Devilery 
+3. Form Invalid resposnse
+4. Error handling possiblities where do i get error (guidance)
+5. GetStates api doesn't return same response if I select the iceland then i get succ = true, data.states = [] (Blank array)
+   if i choose another country then i got succ = false,  data.states = {} (blank object). 
+6. When i update the shipping form need to update the Devilery charges which will show on the payment? or 
+   need to make user on the same shipping address screen?
+
+1. Base URL should be update after build as per root project like - 
+1.1 create the build 
+1.2 move this build inside  woocommerce project which have url like (local.woo/) (in root folder create checkout folder inside create index.php which will forward the checkout url to this index.php).
+1.3 after placing checkout flow to this project the base url(in env should be from the wordpress like (local.woo/))
+
+
+While Implementing - 
+1. Need to create build with each wordpress's base URL where need to use.
+2. Need to create an folder inside the public with the name of the root folder's name.
+3. 
